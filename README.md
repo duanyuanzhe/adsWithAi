@@ -1,2 +1,9 @@
 # adsWithAi
-Daily research on advertising-focused AI agents and ad operations tooling
+
+广告投放相关 Agent/AI 项目调研与可复用方案。
+
+本项目只收录直接服务广告投放或广告技术执行的项目，重点关注广告账户、广告系列、竞价、预算、受众、创意、效果分析和归因。通用 Agent、泛营销工具和仅能推测改造成广告用途的项目不纳入日报。
+
+## 日报
+
+- [2026-11-02：广告投放 Agent 项目日报](reports/2026-11-02-ads-agent-scan.md)

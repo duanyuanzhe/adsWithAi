@@ -1,0 +1,1690 @@
+{
+  "schema_version": 2,
+  "report_date": "2026-11-04",
+  "report_timezone": "America/New_York",
+  "generated_at_utc": "2026-11-04T13:49:44.857710+00:00",
+  "metadata_observation_window_utc": {
+    "start": "2026-11-04T13:27:45.210599+00:00",
+    "end": "2026-11-04T13:30:08.574344Z"
+  },
+  "baseline": {
+    "report_date": "2026-11-02",
+    "repository_commit": "20b44d926179cb316fc97b3e67e3682e653c48a2",
+    "snapshot_url": "https://github.com/duanyuanzhe/adsWithAi/blob/20b44d926179cb316fc97b3e67e3682e653c48a2/sources/2026-11-02-github-snapshot.json",
+    "pr_url": "https://github.com/duanyuanzhe/adsWithAi/pull/1",
+    "note": "PR #1 was OPEN at report preparation. Baseline is pinned to its report commit; this daily report is an independent PR against main."
+  },
+  "methodology": {
+    "eligibility": "Only direct advertising account/campaign operations, bidding, budget, audience targeting, ad-specific creative, advertising performance/attribution, or media buying with primary evidence. General Agent tools, speculative adaptations and unrelated marketing excluded.",
+    "main_group_minimum_github_stars": 100,
+    "ranking": "Observed total GitHub Stars descending within main/watch groups; stars are not real users, deployments, spend or effectiveness.",
+    "delta_semantics": "Change from each repository observation on 2026-11-02, approximately 60 hours earlier. Not a 24h daily delta. First-time selections have no comparable baseline.",
+    "push_semantics": "pushed_at may refer to any branch; it is not a release or proof of default-branch feature changes. Commit compare is used separately.",
+    "evidence": "Default-branch HEAD pinned before reading README/selected sources. File blob SHA and SHA256 retained. Static review only; no installs, executions, account authorizations or live advertising tests."
+  },
+  "discovery": {
+    "github_searches": [
+      {
+        "query": "\"amazon-ads\" in:name,description stars:>=10",
+        "observed_at_utc": "2026-11-04T13:27:59.981636Z",
+        "total_count": 13,
+        "incomplete_results": false,
+        "returned_count": 13
+      },
+      {
+        "query": "\"amazon advertising\" in:name,description stars:>=10",
+        "observed_at_utc": "2026-11-04T13:28:00.095539Z",
+        "total_count": 10,
+        "incomplete_results": false,
+        "returned_count": 10
+      },
+      {
+        "query": "\"tiktok\" \"ads\" in:name,description stars:>=20",
+        "observed_at_utc": "2026-11-04T13:28:00.245980Z",
+        "total_count": 25,
+        "incomplete_results": false,
+        "returned_count": 25
+      },
+      {
+        "query": "\"ads\" \"creative\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:27:59.386342Z",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_count": 1
+      },
+      {
+        "query": "\"advertising\" \"agent\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:28:00.370547Z",
+        "total_count": 5,
+        "incomplete_results": false,
+        "returned_count": 5
+      },
+      {
+        "query": "\"bidding\" \"AI\" in:name,description stars:>=50",
+        "observed_at_utc": "2026-11-04T13:28:00.970105Z",
+        "total_count": 2,
+        "incomplete_results": false,
+        "returned_count": 2
+      },
+      {
+        "query": "\"ads\" \"mcp\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:28:01.643081Z",
+        "total_count": 18,
+        "incomplete_results": false,
+        "returned_count": 18
+      },
+      {
+        "query": "\"ad generation\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:28:01.037816Z",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_count": 1
+      },
+      {
+        "query": "\"ad\" \"generator\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:28:34.220029Z",
+        "total_count": 36,
+        "incomplete_results": false,
+        "returned_count": 30
+      },
+      {
+        "query": "\"advertisement\" \"AI\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:28:33.128402Z",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_count": 1
+      },
+      {
+        "query": "\"UGC\" \"ads\" in:name,description stars:>=50",
+        "observed_at_utc": "2026-11-04T13:28:33.799534Z",
+        "total_count": 6,
+        "incomplete_results": false,
+        "returned_count": 6
+      },
+      {
+        "query": "\"bidding\" \"agent\" in:name,description stars:>=50",
+        "observed_at_utc": "2026-11-04T13:28:33.140617Z",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_count": 1
+      },
+      {
+        "query": "\"auto bidding\" in:name,description stars:>=50",
+        "observed_at_utc": "2026-11-04T13:28:33.974446Z",
+        "total_count": 2,
+        "incomplete_results": false,
+        "returned_count": 2
+      },
+      {
+        "query": "\"ad-creative\" in:name,description stars:>=50",
+        "observed_at_utc": "2026-11-04T13:28:34.052977Z",
+        "total_count": 4,
+        "incomplete_results": false,
+        "returned_count": 4
+      },
+      {
+        "query": "\"bidding\" org:alimama-tech",
+        "observed_at_utc": "2026-11-04T13:29:08.515705Z",
+        "total_count": 3,
+        "incomplete_results": false,
+        "returned_count": 3
+      },
+      {
+        "query": "\"auto-bidding\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:29:08.423188Z",
+        "total_count": 0,
+        "incomplete_results": false,
+        "returned_count": 0
+      },
+      {
+        "query": "\"amazon ads\" (agent OR mcp OR AI) in:name,description,readme stars:>=25",
+        "observed_at_utc": "2026-11-04T13:29:09.363168Z",
+        "total_count": 55,
+        "incomplete_results": false,
+        "returned_count": 30
+      },
+      {
+        "query": "AuctionNet in:name",
+        "observed_at_utc": "2026-11-04T13:29:40.964268Z",
+        "total_count": 14,
+        "incomplete_results": false,
+        "returned_count": 14
+      },
+      {
+        "query": "\"bidding\" \"reinforcement\" in:name,description stars:>=100",
+        "observed_at_utc": "2026-11-04T13:29:40.226012Z",
+        "total_count": 1,
+        "incomplete_results": false,
+        "returned_count": 1
+      }
+    ],
+    "public_web_search": {
+      "engines_attempted": [
+        "Bing RSS",
+        "Google public search",
+        "DuckDuckGo HTML"
+      ],
+      "outcome": "Bing returned off-topic noise; Google returned a JavaScript interstitial; DuckDuckGo returned a human verification challenge. No search snippet used as eligibility evidence. No challenge was bypassed.",
+      "selected_official_site_crosscheck": [
+        "https://www.adport.dev/"
+      ],
+      "coverage_note": "GitHub public search/API and first-party repository documentation form the substantive research. This is not an exhaustive all-web inventory."
+    }
+  },
+  "repositories": [
+    {
+      "full_name": "AgriciDaniel/claude-ads",
+      "html_url": "https://github.com/AgriciDaniel/claude-ads",
+      "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic findings and evidence coverage, versioned JSON reports, and capability-gated account changes.",
+      "homepage": "skool.com/ai-marketing-hub-pro",
+      "stargazers_count": 10727,
+      "forks_count": 1563,
+      "open_issues_count": 5,
+      "created_at": "2026-02-11T13:01:49Z",
+      "updated_at": "2026-11-04T10:53:00Z",
+      "pushed_at": "2026-11-01T21:08:14Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:28:35.128801Z",
+      "head_commit": "fc3908e786c318776df89a3a098333da377364be",
+      "readme_path": "README.md",
+      "readme_blob_sha": "16885f15876cabf2c2e3e9a6af851871a1edf987",
+      "readme_sha256": "282e69e89df0b2179e84941e953c02a4bf93ef744dff1fe26d2cf58fe49c9188",
+      "readme_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/AgriciDaniel/claude-ads",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "first_shortlisted_date": "2026-11-04",
+      "evidence_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md#L10-L12",
+      "advertising_capability_summary": "广告专用审计与优化 Skills：12 平台广告数据/导出分析、预算与渠道方案、投放节奏监测、广告素材 Brief、草稿优化。",
+      "review_boundary": "用于投放诊断与变更前审阅。清单内 12 平台账户写入均禁用；Amazon 原生导出标准化与账户健康评分也禁用。仅 Claude Code 获项目方运行验证，本文未复测。",
+      "supplementary_sources": [
+        {
+          "path": "control-plane/manifests/capability-manifest.json",
+          "url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/control-plane/manifests/capability-manifest.json",
+          "sha256": "df82f01c4ca67a09bfbe0ebe3f298d5c2f92ff4df6d10b0b0f39304fa50fc3a9",
+          "blob_sha": "13532e4bbea6d6fe1daabdf6a8f4173aebf8492e",
+          "observed_at_utc": "2026-11-04T13:31:36.217414Z"
+        },
+        {
+          "path": "skills/ads-amazon/SKILL.md",
+          "url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/skills/ads-amazon/SKILL.md",
+          "sha256": "e1890c0cb3938472a426bb9e50e1740457d094ab5257d591a4804f0a5980bfc5",
+          "blob_sha": "3ada22333cab23a4eee162545574bf5b56306aa8",
+          "observed_at_utc": "2026-11-04T13:31:36.125453Z"
+        }
+      ],
+      "selected_evidence": [
+        {
+          "purpose": "eligibility",
+          "path": "README.md",
+          "line_start": 10,
+          "line_end": 12,
+          "quote": "Claude Ads is a free, open source skill for Claude Code. Give it your ad account data and it tells you what is working, what is broken, and what to fix first, across twelve ad platforms.\n\nIt is made for agencies, consultants, and in-house marketing teams. It reads your data and reports back. It does not change your accounts on its own.",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md#L10-L12"
+        },
+        {
+          "purpose": "core_capability",
+          "path": "README.md",
+          "line_start": 41,
+          "line_end": 46,
+          "quote": "| Find out what is wrong | `/ads audit` | A report of passed, failed, and unchecked items, each with its evidence |\n| Decide where to spend | `/ads plan` | Channel, budget, measurement, and competitor plans |\n| Make ads | `/ads create` | Copy, image, video, and product-photo briefs and assets |\n| Keep watch | `/ads monitor` | Checks on pacing, delivery, tracking, ad fatigue, and policy |\n| Improve results | `/ads optimize --draft` | Suggested changes, written as drafts |\n| Test an idea | `/ads experiment` | A test design, or a readout of a finished test |",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md#L41-L46"
+        },
+        {
+          "purpose": "business_value_basis",
+          "path": "README.md",
+          "line_start": 41,
+          "line_end": 46,
+          "quote": "| Find out what is wrong | `/ads audit` | A report of passed, failed, and unchecked items, each with its evidence |\n| Decide where to spend | `/ads plan` | Channel, budget, measurement, and competitor plans |\n| Make ads | `/ads create` | Copy, image, video, and product-photo briefs and assets |\n| Keep watch | `/ads monitor` | Checks on pacing, delivery, tracking, ad fatigue, and policy |\n| Improve results | `/ads optimize --draft` | Suggested changes, written as drafts |\n| Test an idea | `/ads experiment` | A test design, or a readout of a finished test |",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md#L41-L46"
+        },
+        {
+          "purpose": "boundary_runtime",
+          "path": "README.md",
+          "line_start": 149,
+          "line_end": 155,
+          "quote": "> [!WARNING]\n> **EXPERIMENTAL:** Only Claude Code is verified. The Codex, Gemini, Cursor,\n> Windsurf, and Goose targets install the same skill artifacts under each host's\n> expected directory, but that host's runtime conventions may differ. Confirm the\n> result in your host, and pin the install locations with `--skill-dir` and\n> `--agent-dir` if the auto-detected paths are wrong. The installer creates the\n> managed Python environment only for the `claude` and `codex` targets.",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/README.md#L149-L155"
+        },
+        {
+          "purpose": "boundary_default",
+          "path": "control-plane/manifests/capability-manifest.json",
+          "line_start": 1,
+          "line_end": 4,
+          "quote": "{\n  \"schema_version\": \"1.0.0\",\n  \"snapshot_at\": \"2026-10-07\",\n  \"default_mutation_mode\": \"read-only\",",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/control-plane/manifests/capability-manifest.json#L1-L4"
+        },
+        {
+          "purpose": "tiktok_boundary",
+          "path": "control-plane/manifests/capability-manifest.json",
+          "line_start": 59,
+          "line_end": 68,
+          "quote": "      \"id\": \"tiktok\",\n      \"display_name\": \"TikTok Ads\",\n      \"target_tier\": \"first-class\",\n      \"skill_path\": \"skills/ads-tiktok/SKILL.md\",\n      \"capabilities\": [\n        {\"id\": \"skill-guidance\", \"mode\": \"export-read\", \"status\": \"implemented\", \"implementation_paths\": [\"skills/ads-tiktok/SKILL.md\"], \"fixture_paths\": [], \"test_paths\": [], \"source_ids\": [\"claude-ads-v181-tree\", \"tiktok-business-api-official\"]},\n        {\"id\": \"export-ingestion\", \"mode\": \"export-read\", \"status\": \"fixture-verified\", \"implementation_paths\": [\"claude_ads_core/adapters/csv_export.py\"], \"fixture_paths\": [\"tests/fixtures/exports/tiktok.csv\"], \"test_paths\": [\"tests/core/test_adapters.py\"], \"source_ids\": [\"claude-ads-v2-export-adapter\", \"tiktok-business-api-official\"]},\n        {\"id\": \"native-export-normalization\", \"mode\": \"export-read\", \"status\": \"fixture-verified\", \"implementation_paths\": [\"claude_ads_core/adapters/mappings_v1.py\", \"claude_ads_core/adapters/native_export.py\"], \"fixture_paths\": [\"tests/fixtures/native_exports/tiktok.csv\"], \"test_paths\": [\"tests/core/test_native_exports.py\"], \"source_ids\": [\"tiktok-integrated-reporting-official\", \"tiktok-basic-report-dimensions-v13-official\", \"tiktok-basic-report-metrics-v13-official\"]},\n        {\"id\": \"account-health-scoring\", \"mode\": \"export-read\", \"status\": \"disabled\", \"implementation_paths\": [\"claude_ads_core/control_registry.py\", \"control-plane/manifests/control-registry.json\", \"control-plane/manifests/scoring-profiles.json\"], \"fixture_paths\": [], \"test_paths\": [\"tests/core/test_control_registry.py\", \"tests/core/test_platform_report_contracts.py\"], \"source_ids\": [], \"disabled_reason\": \"No approved source-grounded control-severity decision set; discovery findings remain unscored.\"},\n        {\"id\": \"account-mutation\", \"mode\": \"live-write\", \"status\": \"disabled\", \"implementation_paths\": [], \"fixture_paths\": [], \"test_paths\": [], \"source_ids\": [], \"disabled_reason\": \"No approved v2 write adapter lifecycle.\"}",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/control-plane/manifests/capability-manifest.json#L59-L68"
+        },
+        {
+          "purpose": "amazon_boundary",
+          "path": "control-plane/manifests/capability-manifest.json",
+          "line_start": 98,
+          "line_end": 107,
+          "quote": "      \"id\": \"amazon\",\n      \"display_name\": \"Amazon Ads\",\n      \"target_tier\": \"first-class\",\n      \"skill_path\": \"skills/ads-amazon/SKILL.md\",\n      \"capabilities\": [\n        {\"id\": \"skill-guidance\", \"mode\": \"export-read\", \"status\": \"implemented\", \"implementation_paths\": [\"skills/ads-amazon/SKILL.md\"], \"fixture_paths\": [], \"test_paths\": [], \"source_ids\": [\"claude-ads-v181-tree\", \"amazon-ads-api-official\"]},\n        {\"id\": \"export-ingestion\", \"mode\": \"export-read\", \"status\": \"fixture-verified\", \"implementation_paths\": [\"claude_ads_core/adapters/csv_export.py\"], \"fixture_paths\": [\"tests/fixtures/exports/amazon.csv\"], \"test_paths\": [\"tests/core/test_adapters.py\"], \"source_ids\": [\"claude-ads-v2-export-adapter\", \"amazon-ads-api-official\"]},\n        {\"id\": \"native-export-normalization\", \"mode\": \"export-read\", \"status\": \"disabled\", \"implementation_paths\": [\"claude_ads_core/adapters/mappings_v1.py\", \"claude_ads_core/adapters/native_export.py\"], \"fixture_paths\": [\"tests/fixtures/native_exports/amazon.csv\"], \"test_paths\": [\"tests/core/test_native_exports.py\"], \"source_ids\": [\"amazon-ads-api-official\"], \"disabled_reason\": \"No curated official source establishes one stable native report field schema across Amazon Ads products.\"},\n        {\"id\": \"account-health-scoring\", \"mode\": \"export-read\", \"status\": \"disabled\", \"implementation_paths\": [\"claude_ads_core/control_registry.py\", \"control-plane/manifests/control-registry.json\", \"control-plane/manifests/scoring-profiles.json\"], \"fixture_paths\": [], \"test_paths\": [\"tests/core/test_control_registry.py\", \"tests/core/test_platform_report_contracts.py\"], \"source_ids\": [], \"disabled_reason\": \"No approved source-grounded control-severity decision set; discovery findings remain unscored.\"},\n        {\"id\": \"account-mutation\", \"mode\": \"live-write\", \"status\": \"disabled\", \"implementation_paths\": [], \"fixture_paths\": [], \"test_paths\": [], \"source_ids\": [], \"disabled_reason\": \"No approved v2 write adapter lifecycle.\"}",
+          "source_url": "https://github.com/AgriciDaniel/claude-ads/blob/fc3908e786c318776df89a3a098333da377364be/control-plane/manifests/capability-manifest.json#L98-L107"
+        }
+      ]
+    },
+    {
+      "full_name": "irinabuht12-oss/google-ads-meta-ads-mcp",
+      "html_url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
+      "description": "Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: OAuth login, no API keys, approval-gated writes, 7-day free trial. By Ryze AI.",
+      "homepage": "https://www.get-ryze.ai/",
+      "stargazers_count": 6952,
+      "forks_count": 373,
+      "open_issues_count": 3,
+      "created_at": "2026-04-06T04:41:14Z",
+      "updated_at": "2026-11-04T12:54:49Z",
+      "pushed_at": "2026-10-27T08:57:57Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:45.210599+00:00",
+      "head_commit": "a4911a848c5c698484f6d02b84e1585010895a44",
+      "readme_path": "README.md",
+      "readme_blob_sha": "3087d3447733f3cf292bf39feae342dc6d90d969",
+      "readme_sha256": "70a3a967308e2074f623482537e34d6fcaeab1f2af6545334799638872e49e00",
+      "readme_url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp/blob/a4911a848c5c698484f6d02b84e1585010895a44/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/irinabuht12-oss/google-ads-meta-ads-mcp",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:15.629999+00:00",
+        "baseline_stars": 6772,
+        "stars_change": 180,
+        "forks_change": 1,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "a4911a848c5c698484f6d02b84e1585010895a44"
+      },
+      "supplementary_sources": [],
+      "static_inventory": {
+        "head_commit": "a4911a848c5c698484f6d02b84e1585010895a44",
+        "tree_sha": "a4911a848c5c698484f6d02b84e1585010895a44",
+        "truncated": false,
+        "regular_file_count": 24,
+        "api_url": "https://api.github.com/repos/irinabuht12-oss/google-ads-meta-ads-mcp/git/trees/a4911a848c5c698484f6d02b84e1585010895a44?recursive=1",
+        "observed_at_utc": "2026-11-04T13:31:12.545596+00:00",
+        "reviewed_file_paths": [
+          ".github/FUNDING.yml",
+          ".github/ISSUE_TEMPLATE/bug_report.md",
+          ".github/ISSUE_TEMPLATE/feature_request.md",
+          "CHANGELOG.md",
+          "LICENSE",
+          "README.md",
+          "assets/banner.png",
+          "assets/ryze-icon-400.png",
+          "configs/claude_desktop_config.json",
+          "configs/codex_config.toml",
+          "configs/cursor_mcp.json",
+          "configs/n8n_workflow.json",
+          "docs/EXAMPLES.md",
+          "docs/SETUP_CHATGPT.md",
+          "docs/SETUP_CLAUDE.md",
+          "docs/SETUP_CURSOR.md",
+          "docs/SETUP_N8N.md",
+          "docs/SETUP_WINDSURF.md",
+          "glama.json",
+          "google-ads-mcp/README.md",
+          "google-analytics-mcp/README.md",
+          "llms.txt",
+          "meta-ads-mcp/README.md",
+          "server.json"
+        ]
+      },
+      "advertising_capability_summary": "托管 Google/Meta 广告账户、Campaign、预算、受众、素材与效果分析入口；功能范围为 README 声明。",
+      "review_boundary": "仓库树 24 个文件中未见服务端实现；6,952 Stars 是公开关注度，不代表可自行部署或真实投放效果。",
+      "evidence_url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp/blob/a4911a848c5c698484f6d02b84e1585010895a44/README.md#L117-L145",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "pipeboard-co/meta-ads-mcp",
+      "html_url": "https://github.com/pipeboard-co/meta-ads-mcp",
+      "description": "Meta Ads (Facebook/Instagram) MCP server for Claude, ChatGPT, Perplexity & Cursor — the Meta node of Pipeboard’s 5-platform family (+ Google, TikTok, Snap, Reddit). Hosted remote MCP, badged Meta Business Partner, free plan — no self-hosting required.",
+      "homepage": "https://pipeboard.co",
+      "stargazers_count": 1350,
+      "forks_count": 282,
+      "open_issues_count": 18,
+      "created_at": "2025-04-11T20:53:47Z",
+      "updated_at": "2026-11-04T08:23:34Z",
+      "pushed_at": "2026-10-20T13:58:42Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "observed_at_utc": "2026-11-04T13:27:45.214708+00:00",
+      "head_commit": "63d0e5e29f2cf823f7f5317a77e66151eceb7415",
+      "readme_path": "README.md",
+      "readme_blob_sha": "4e65c1f774c0bcb1984f2cf454b040e1ea20913b",
+      "readme_sha256": "924552e06e26c995d3672384582274261de802135c0eeafeee42f0e16a35776d",
+      "readme_url": "https://github.com/pipeboard-co/meta-ads-mcp/blob/63d0e5e29f2cf823f7f5317a77e66151eceb7415/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/pipeboard-co/meta-ads-mcp",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:15.218139+00:00",
+        "baseline_stars": 1344,
+        "stars_change": 6,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "63d0e5e29f2cf823f7f5317a77e66151eceb7415"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "Meta Campaign/Ad Set/Ad 管理、预算、定向、素材上传和效果分析。",
+      "review_boundary": "适合 Meta 执行连接器。仓库含 Python 实现；托管服务的五平台与工具总数不能直接算作本仓库覆盖。",
+      "evidence_url": "https://github.com/pipeboard-co/meta-ads-mcp/blob/63d0e5e29f2cf823f7f5317a77e66151eceb7415/README.md#L175-L188",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "googleads/google-ads-mcp",
+      "html_url": "https://github.com/googleads/google-ads-mcp",
+      "description": null,
+      "homepage": null,
+      "stargazers_count": 1117,
+      "forks_count": 350,
+      "open_issues_count": 16,
+      "created_at": "2025-10-03T22:09:25Z",
+      "updated_at": "2026-11-04T12:15:09Z",
+      "pushed_at": "2026-11-02T15:45:01Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "observed_at_utc": "2026-11-04T13:27:45.218923+00:00",
+      "head_commit": "7452a9d49e3d350403f2610cd7125c60f6d05264",
+      "readme_path": "README.md",
+      "readme_blob_sha": "5c69fd8db0125dba91b8bc9e08b15c1aec01c3b9",
+      "readme_sha256": "f47c32c16b363f07efd1d6d50ea0c5ed9f0d6e9ffbd083ef47597355ab4b9f52",
+      "readme_url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/googleads/google-ads-mcp",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:15.555382+00:00",
+        "baseline_stars": 1104,
+        "stars_change": 13,
+        "forks_change": 7,
+        "default_branch_head_changed": true,
+        "readme_changed": true,
+        "baseline_head_commit": "9a78cbdceebae71a6bc8483bdec333695834ef9c"
+      },
+      "supplementary_sources": [
+        {
+          "path": "ads_mcp/tools/core.py",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/tools/core.py",
+          "sha256": "6d31b84e77726cf38216b6babe8a0d6b56db622427193574dacb5737589cb398",
+          "blob_sha": "1235ef7e8bf1863d43b67b8a40abb9727e73a1b4"
+        },
+        {
+          "path": "ads_mcp/tools_config.yaml",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/tools_config.yaml",
+          "sha256": "59d194606edc824018be175e06612f9e698029837582516dbf47b76aadc99e8e",
+          "blob_sha": "fcc8960b93d4fa433496abf8e9cdb81384fb348f"
+        },
+        {
+          "path": "ads_mcp/tools/upload_video.py",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/tools/upload_video.py",
+          "sha256": "699596145e8fb82ec53c7b3ca6d2a3210296a7b2273aa40711d7b0224802350b",
+          "blob_sha": "9b14ae69d591d2f7fd92bfeae406e8443d663a03"
+        },
+        {
+          "path": "ads_mcp/tools/create_asset.py",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/tools/create_asset.py",
+          "sha256": "3a17bb59924ffa856cfc32d2ca66e7ef3fe276810fdc41ec085f82327c365e64",
+          "blob_sha": "7ef10c94e405ee3ae34408d73b2e35869ce6c9a0"
+        },
+        {
+          "path": "ads_mcp/tools/labels.py",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/tools/labels.py",
+          "sha256": "1bc01f216f8ebc40fa69cfd51aa4259bdf61e28fd56caff5e9a02917b59d9ccb",
+          "blob_sha": "ebbf6fb9e900e4d92b93c979fa4ada4a476102c9"
+        },
+        {
+          "path": "ads_mcp/propose_and_confirm.py",
+          "url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/ads_mcp/propose_and_confirm.py",
+          "sha256": "ab20fbeaef3d733492c52682a8722788c1a0898b5c09186c1e1eeba45cb512fc",
+          "blob_sha": "fec2db806e09979d38f8820829fc4f62efa68870"
+        }
+      ],
+      "advertising_capability_summary": "GAQL 账户读取、广告资产创建、本地视频上传、标签和标签关联管理；写入采用 Propose & Confirm。",
+      "review_boundary": "本次新增资产/标签写入证据，不能推断已支持预算或竞价修改。远程图片用 base64；视频上传仅本地 stdio。文档要求人工确认，checksum 校验本身不是独立审批凭证。",
+      "evidence_url": "https://github.com/googleads/google-ads-mcp/blob/7452a9d49e3d350403f2610cd7125c60f6d05264/README.md#L14-L36",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/googleads/google-ads-mcp/compare/9a78cbdceebae71a6bc8483bdec333695834ef9c...7452a9d49e3d350403f2610cd7125c60f6d05264",
+        "api_url": "https://api.github.com/repos/googleads/google-ads-mcp/compare/9a78cbdceebae71a6bc8483bdec333695834ef9c...7452a9d49e3d350403f2610cd7125c60f6d05264",
+        "status": "ahead",
+        "ahead_by": 10,
+        "behind_by": 0,
+        "total_commits": 10,
+        "returned_file_count": 23,
+        "file_list_may_be_capped": false,
+        "recent_commit_subjects": [
+          {
+            "sha": "af8eb02576d80877615c442e234b6fc717917aa3",
+            "subject": "Change tool signatures to use ids rather than resource names"
+          },
+          {
+            "sha": "2acfe336af3aa2708fa673c53f69d544ca55b9f7",
+            "subject": "Fixed the test suite and added tool categorization for assets and labels"
+          },
+          {
+            "sha": "5feb82947d9a32073e6515434ff594aac68c47df",
+            "subject": "Add the propose-and-confirm workflow to all mutate methods"
+          },
+          {
+            "sha": "8ae310bf14e5fc996bf5b12e8fd83dcba6ec244c",
+            "subject": "Pre-review cleanup"
+          },
+          {
+            "sha": "733d90633e772929598ff9f9c8c142b09392967a",
+            "subject": "Fix python 3.11 compatibility"
+          },
+          {
+            "sha": "8e59d5d9358bb7283e7fc6e18701ec9187f06855",
+            "subject": "Merge pull request #139 from googleads/asset-management"
+          },
+          {
+            "sha": "ed66847680cfeff884d8ace586ad2793deefc1a7",
+            "subject": "Bump version number to 0.0.6"
+          },
+          {
+            "sha": "7452a9d49e3d350403f2610cd7125c60f6d05264",
+            "subject": "Merge pull request #142 from googleads/bump-0.0.6"
+          }
+        ]
+      }
+    },
+    {
+      "full_name": "realkimbarrett/advertising-skills",
+      "html_url": "https://github.com/realkimbarrett/advertising-skills",
+      "description": "Advertising Skills for Open Claw, Claude Code & AI agents. Direct response, paid ads, funnels, and copy systems.",
+      "homepage": "https://advertisingskills.io/",
+      "stargazers_count": 772,
+      "forks_count": 68,
+      "open_issues_count": 2,
+      "created_at": "2026-03-26T07:58:48Z",
+      "updated_at": "2026-11-03T10:05:07Z",
+      "pushed_at": "2026-03-26T08:44:06Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": null,
+      "observed_at_utc": "2026-11-04T13:27:45.219339+00:00",
+      "head_commit": "45f4a4a1dabe24113193369b55b929b1de4ff04a",
+      "readme_path": "README.md",
+      "readme_blob_sha": "50d4e128d497788aea7551653c99f35d4af83c07",
+      "readme_sha256": "4a2b301295b2a59f75e80a276fa29e282beb9e934d8b22257aeb80728bfa8225",
+      "readme_url": "https://github.com/realkimbarrett/advertising-skills/blob/45f4a4a1dabe24113193369b55b929b1de4ff04a/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/realkimbarrett/advertising-skills",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:30:25.443473+00:00",
+        "baseline_stars": 769,
+        "stars_change": 3,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "45f4a4a1dabe24113193369b55b929b1de4ff04a"
+      },
+      "supplementary_sources": [
+        {
+          "path": "skills/operator-os/scroll-stopping-creative/SKILL.md",
+          "url": "https://github.com/realkimbarrett/advertising-skills/blob/45f4a4a1dabe24113193369b55b929b1de4ff04a/skills/operator-os/scroll-stopping-creative/SKILL.md",
+          "sha256": "400dc1af0833c56ee810f18f4f791ad8babcec6259f7b98947c490c545b41fe2",
+          "blob_sha": "3f949683e88726accd5df52c14edcd17d0d69d46"
+        },
+        {
+          "path": "skills/operator-os/ad-angle-multiplier/SKILL.md",
+          "url": "https://github.com/realkimbarrett/advertising-skills/blob/45f4a4a1dabe24113193369b55b929b1de4ff04a/skills/operator-os/ad-angle-multiplier/SKILL.md",
+          "sha256": "ecd93f90b64260bde0ef2ea83aedef971789ef13e07f4b871766cfd00d31825c",
+          "blob_sha": "97d0254ce65b3cb057f91dadd30936c6e3d529c7"
+        }
+      ],
+      "advertising_capability_summary": "仅收录广告创意组件：前三秒 Hook/画面/脚本构思，以及广告角度与 Hook 变体生成。",
+      "review_boundary": "广告素材提示词资产；不推荐其中的邮件、落地页等泛营销部分。没有广告账户执行能力。",
+      "evidence_url": "https://github.com/realkimbarrett/advertising-skills/blob/45f4a4a1dabe24113193369b55b929b1de4ff04a/README.md#L42-L51",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "cohnen/mcp-google-ads",
+      "html_url": "https://github.com/cohnen/mcp-google-ads",
+      "description": "An MCP tool that connects Google Ads with Claude AI/Cursor and others, allowing you to analyze your advertising data through natural language conversations. This integration gives you access to campaign information, performance metrics, keyword analytics, and ad management—all through simple chat with Claude, Cursor or Windsurf.",
+      "homepage": "https://ixigo.tech",
+      "stargazers_count": 718,
+      "forks_count": 158,
+      "open_issues_count": 17,
+      "created_at": "2025-03-20T18:28:21Z",
+      "updated_at": "2026-11-02T04:51:36Z",
+      "pushed_at": "2025-10-16T20:20:14Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:45.227785+00:00",
+      "head_commit": "461a1d673cf1c369e8b95fc9b5b1d9cb7f3ebb4a",
+      "readme_path": "README.md",
+      "readme_blob_sha": "5c3abaebc150adc0b80d7de1205bc95ca04acd23",
+      "readme_sha256": "242d801d4374e863e003bed2752702e6e800195b080b0a26f8718d4c745aa3a2",
+      "readme_url": "https://github.com/cohnen/mcp-google-ads/blob/461a1d673cf1c369e8b95fc9b5b1d9cb7f3ebb4a/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/cohnen/mcp-google-ads",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:15.313592+00:00",
+        "baseline_stars": 717,
+        "stars_change": 1,
+        "forks_change": 1,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "461a1d673cf1c369e8b95fc9b5b1d9cb7f3ebb4a"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "通过 MCP 分析 Google Ads Campaign、广告、关键词、预算消耗与竞价策略数据。",
+      "review_boundary": "适合只读分析接入比较；最近推送为 2025-10-16，采纳前需核对当前依赖与 API 兼容性。",
+      "evidence_url": "https://github.com/cohnen/mcp-google-ads/blob/461a1d673cf1c369e8b95fc9b5b1d9cb7f3ebb4a/README.md#L7-L35",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "GML-MMGroup/AdCraft",
+      "html_url": "https://github.com/GML-MMGroup/AdCraft",
+      "description": "AdCraft — 首个面向营销广告的 Agentic 视频制作平台。无限画布 · 拉片复刻 · 全流程自动化，从创意到成片一站直达。AdCraft — The first agentic video production platform for marketing and advertising. Infinite canvas · shot-by-shot replication · fully automated, from idea to final cut.",
+      "homepage": "",
+      "stargazers_count": 595,
+      "forks_count": 74,
+      "open_issues_count": 12,
+      "created_at": "2026-07-02T08:51:31Z",
+      "updated_at": "2026-11-04T12:22:01Z",
+      "pushed_at": "2026-11-04T12:28:32Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "observed_at_utc": "2026-11-04T13:27:47.646190+00:00",
+      "head_commit": "6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+      "readme_path": "README.md",
+      "readme_blob_sha": "fac018f681bafe4989a330fcfec418b03eea0013",
+      "readme_sha256": "962b1333b6cd1149843592565d4971fa5aef90becb2ad9c47792905e3eacc267",
+      "readme_url": "https://github.com/GML-MMGroup/AdCraft/blob/6e8cfdb7d958aca150b73979a82e6e928d135d1a/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/GML-MMGroup/AdCraft",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:30:26.279363+00:00",
+        "baseline_stars": 562,
+        "stars_change": 33,
+        "forks_change": -2,
+        "default_branch_head_changed": true,
+        "readme_changed": false,
+        "baseline_head_commit": "0e6317d618a9d2065b3b6639c91b5119c1563e92"
+      },
+      "supplementary_sources": [
+        {
+          "path": "apps/api/agent/skills/video_agent_script_authoring/SKILL.md",
+          "url": "https://github.com/GML-MMGroup/AdCraft/blob/6e8cfdb7d958aca150b73979a82e6e928d135d1a/apps/api/agent/skills/video_agent_script_authoring/SKILL.md",
+          "sha256": "404182ef2073dfe0ade6e17f22acccf7d29a6b5699b7a65eaa3ce4f221aed8ff",
+          "blob_sha": "5782ca5646b3e1a96b636048f9797c1e192fde5f"
+        },
+        {
+          "path": "apps/api/agent/skills/brand_agent_creative_strategy/SKILL.md",
+          "url": "https://github.com/GML-MMGroup/AdCraft/blob/6e8cfdb7d958aca150b73979a82e6e928d135d1a/apps/api/agent/skills/brand_agent_creative_strategy/SKILL.md",
+          "sha256": "2ef9381be0e4a795343d811e1611e403d6a76917aee1c90dc7110a183e4ad294",
+          "blob_sha": "8c07029d8382f7ad1673efc0b815dd5bbaa57dfc"
+        }
+      ],
+      "static_inventory": {
+        "head_commit": "6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+        "tree_sha": "6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+        "truncated": false,
+        "regular_file_count": 2357,
+        "api_url": "https://api.github.com/repos/GML-MMGroup/AdCraft/git/trees/6e8cfdb7d958aca150b73979a82e6e928d135d1a?recursive=1",
+        "observed_at_utc": "2026-11-04T13:31:13.563567+00:00",
+        "example_implementation_paths": [
+          "apps/api/agent/skills/brand_agent_creative_strategy/SKILL.md",
+          "apps/api/agent/skills/video_agent_script_authoring/SKILL.md",
+          "apps/api/main.py",
+          "apps/web/package.json"
+        ]
+      },
+      "advertising_capability_summary": "面向广告视频的 Agent 工作流：创意、脚本、产品视觉、分镜、视频与最终合成。",
+      "review_boundary": "广告视频生产方向。默认分支新增 70 个提交，涉及创意方法、脚本 Skill 与运行时；本次只做文档/选定源码核验，未生成或评估广告样片。",
+      "evidence_url": "https://github.com/GML-MMGroup/AdCraft/blob/6e8cfdb7d958aca150b73979a82e6e928d135d1a/README.md#L71-L113",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/GML-MMGroup/AdCraft/compare/0e6317d618a9d2065b3b6639c91b5119c1563e92...6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+        "api_url": "https://api.github.com/repos/GML-MMGroup/AdCraft/compare/0e6317d618a9d2065b3b6639c91b5119c1563e92...6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+        "status": "ahead",
+        "ahead_by": 70,
+        "behind_by": 0,
+        "total_commits": 70,
+        "returned_file_count": 175,
+        "file_list_may_be_capped": false,
+        "recent_commit_subjects": [
+          {
+            "sha": "d4110755efe299b4e3279c2f509a6a307bd1e9a2",
+            "subject": "refactor(skills): clarify summer sensory use moment mechanism and adaptable execution"
+          },
+          {
+            "sha": "1f742a956416e20c1a3f3106b1d58a797d7b7eb0",
+            "subject": "refactor(skills): clarify surreal displacement mechanism and adaptable execution"
+          },
+          {
+            "sha": "37a1eb77026ad154022f72d460a2456800798b9f",
+            "subject": "refactor(skills): clarify synesthetic translation mechanism and adaptable execution"
+          },
+          {
+            "sha": "2076085de72a6ebb322ae6e78e351188c32765c4",
+            "subject": "refactor(skills): clarify visual metaphor mechanism and adaptable execution"
+          },
+          {
+            "sha": "670247195c81822ec480825d222ab1cfb9849000",
+            "subject": "refactor(skills): clarify world hopping relay mechanism and adaptable execution"
+          },
+          {
+            "sha": "9f865cef75ea4a009aea6b7bb52ff6ff3fae6c52",
+            "subject": "fix(skills): align deadpan comedy curation with creative ownership"
+          },
+          {
+            "sha": "3bf4fb26361d2a06c268d4103af5e3764db4e93a",
+            "subject": "Merge pull request #92 from GML-MMGroup/main"
+          },
+          {
+            "sha": "6e8cfdb7d958aca150b73979a82e6e928d135d1a",
+            "subject": "Merge pull request #93 from GML-MMGroup/dev"
+          }
+        ]
+      }
+    },
+    {
+      "full_name": "poseljacob/agentic-video-editor",
+      "html_url": "https://github.com/poseljacob/agentic-video-editor",
+      "description": "AI-powered video editor that turns raw footage and a creative brief into a polished ad using an ensemble of AI agents (Google Gemini + FFmpeg)",
+      "homepage": null,
+      "stargazers_count": 507,
+      "forks_count": 62,
+      "open_issues_count": 3,
+      "created_at": "2026-04-14T03:43:41Z",
+      "updated_at": "2026-11-04T08:35:51Z",
+      "pushed_at": "2026-04-14T20:09:43Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:47.874743+00:00",
+      "head_commit": "47248b577046b0563e57e78edad86a3106c6faab",
+      "readme_path": "README.md",
+      "readme_blob_sha": "23d1551408ce82ab68d341f9c1fbb22789a3c577",
+      "readme_sha256": "4424ae4bc385af199720eb2aaef5c3db0423b03fcaac9247c161ab81be1a97b3",
+      "readme_url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/poseljacob/agentic-video-editor",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:17.204055+00:00",
+        "baseline_stars": 507,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "47248b577046b0563e57e78edad86a3106c6faab"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "以原始素材与创意 Brief 生成广告剪辑；包含 UGC 广告管线、DTC 风格及导演/剪辑/审片反馈循环。",
+      "review_boundary": "适合短视频广告素材迭代。CLI 是文档推荐路径，Web UI 标明 pre-alpha；不负责账户投放。",
+      "evidence_url": "https://github.com/poseljacob/agentic-video-editor/blob/47248b577046b0563e57e78edad86a3106c6faab/README.md#L104-L130",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "mathiaschu/meta-ads-analyzer",
+      "html_url": "https://github.com/mathiaschu/meta-ads-analyzer",
+      "description": "Meta Ads Analyzer skill + MCP server for Claude Code. Breakdown Effect, Learning Phase, and expert-level campaign diagnosis.",
+      "homepage": null,
+      "stargazers_count": 466,
+      "forks_count": 63,
+      "open_issues_count": 4,
+      "created_at": "2026-02-26T20:32:10Z",
+      "updated_at": "2026-11-03T02:10:28Z",
+      "pushed_at": "2026-02-26T20:32:12Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:47.932214+00:00",
+      "head_commit": "9088472ddacdb89f3c5943c3db6be7b8ee25c922",
+      "readme_path": "README.md",
+      "readme_blob_sha": "022234b9e83e4debbc34de124c4a8ae809bdb15e",
+      "readme_sha256": "a812a593c6cc7b357420b1a6d02671ceb6c01e7247c42f3cf8f8923c471122da",
+      "readme_url": "https://github.com/mathiaschu/meta-ads-analyzer/blob/9088472ddacdb89f3c5943c3db6be7b8ee25c922/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/mathiaschu/meta-ads-analyzer",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:17.860739+00:00",
+        "baseline_stars": 464,
+        "stars_change": 2,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "9088472ddacdb89f3c5943c3db6be7b8ee25c922"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "分析 Meta Campaign/Ad Set/Ad 表现，诊断 Breakdown Effect、学习阶段、重叠、节奏与素材疲劳。",
+      "review_boundary": "广告分析 Skill；可用广告导出数据，也可配置外部 MCP 取实时数据，不能当作独立全功能执行服务器。",
+      "evidence_url": "https://github.com/mathiaschu/meta-ads-analyzer/blob/9088472ddacdb89f3c5943c3db6be7b8ee25c922/README.md#L3-L14",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "gomarble-ai/facebook-ads-mcp-server",
+      "html_url": "https://github.com/gomarble-ai/facebook-ads-mcp-server",
+      "description": null,
+      "homepage": null,
+      "stargazers_count": 368,
+      "forks_count": 111,
+      "open_issues_count": 6,
+      "created_at": "2025-04-07T17:46:05Z",
+      "updated_at": "2026-11-03T06:23:35Z",
+      "pushed_at": "2026-08-05T09:45:30Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:48.406882+00:00",
+      "head_commit": "a3b555a12dff5b888b172ef9113dd1f36d69e525",
+      "readme_path": "readme.md",
+      "readme_blob_sha": "f26c2722ddb3af994870b11015a28c4f8463479b",
+      "readme_sha256": "cd0b1c5c04ac10d73e4ceea4c80cd3c049589142c765a22a69e47ec43c778a19",
+      "readme_url": "https://github.com/gomarble-ai/facebook-ads-mcp-server/blob/a3b555a12dff5b888b172ef9113dd1f36d69e525/readme.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/gomarble-ai/facebook-ads-mcp-server",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:17.689921+00:00",
+        "baseline_stars": 366,
+        "stars_change": 2,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "a3b555a12dff5b888b172ef9113dd1f36d69e525"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "读取 Meta 广告账户、Campaign、Ad Set、Ad、Creative 和 Insights，给 AI 提供广告数据。",
+      "review_boundary": "适合广告效果分析连接器。本文不据这些读取工具推定支持创建或修改投放。",
+      "evidence_url": "https://github.com/gomarble-ai/facebook-ads-mcp-server/blob/a3b555a12dff5b888b172ef9113dd1f36d69e525/readme.md#L99-L133",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "TheMattBerman/meta-ads-kit",
+      "html_url": "https://github.com/TheMattBerman/meta-ads-kit",
+      "description": "Open source AI ad manager. Replace 20 min of Ads Manager with a 2-min briefing. Built with OpenClaw + social-cli.",
+      "homepage": null,
+      "stargazers_count": 350,
+      "forks_count": 68,
+      "open_issues_count": 1,
+      "created_at": "2026-02-23T22:04:34Z",
+      "updated_at": "2026-11-04T00:42:16Z",
+      "pushed_at": "2026-06-10T19:36:42Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:49.234996+00:00",
+      "head_commit": "dffa0daf6ed1e278481e9408af3be6aaf9709b28",
+      "readme_path": "README.md",
+      "readme_blob_sha": "f58a4a1583a9c0121593b73f1eb8cf2aacbb2f86",
+      "readme_sha256": "bf71d85eadef2ac7ddc6a3f8d744b1f4abec9602fe0eac5d2194a5468b736ff3",
+      "readme_url": "https://github.com/TheMattBerman/meta-ads-kit/blob/dffa0daf6ed1e278481e9408af3be6aaf9709b28/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/TheMattBerman/meta-ads-kit",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:17.880892+00:00",
+        "baseline_stars": 348,
+        "stars_change": 2,
+        "forks_change": 1,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "dffa0daf6ed1e278481e9408af3be6aaf9709b28"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "Meta 广告日报、素材疲劳、预算建议、广告文案、暂停/恢复及 Pixel/CAPI 检查。",
+      "review_boundary": "OpenClaw 广告专用工作流；上传采用 CLI-first、PAUSED/dry-run 约束，具体上传范围仍受 CLI 支持限制。",
+      "evidence_url": "https://github.com/TheMattBerman/meta-ads-kit/blob/dffa0daf6ed1e278481e9408af3be6aaf9709b28/README.md#L12-L25",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "zubair-trabzada/ai-ads-claude",
+      "html_url": "https://github.com/zubair-trabzada/ai-ads-claude",
+      "description": "AI-powered advertising strategy engine for Claude Code. Build complete ad strategies, generate platform-specific copy (Google, Meta, LinkedIn, TikTok, YouTube, Pinterest), design campaign funnels, allocate budgets, and produce professional PDF reports. 15 skills, 5 parallel agents.",
+      "homepage": "https://www.skool.com/aiworkshop",
+      "stargazers_count": 285,
+      "forks_count": 99,
+      "open_issues_count": 1,
+      "created_at": "2026-04-06T04:36:14Z",
+      "updated_at": "2026-11-04T11:49:07Z",
+      "pushed_at": "2026-04-08T01:54:01Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:49.987881+00:00",
+      "head_commit": "d1df3f544249191cbc600c8301e2b9d5ddd121c8",
+      "readme_path": "README.md",
+      "readme_blob_sha": "a50fcfa91a2f6dd7323a1829aa2a12be21ca08ba",
+      "readme_sha256": "3c9eabf9ab9986fb62226be1d716ae7f631ae2a72bd2695c5bf2584b9f01757e",
+      "readme_url": "https://github.com/zubair-trabzada/ai-ads-claude/blob/d1df3f544249191cbc600c8301e2b9d5ddd121c8/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/zubair-trabzada/ai-ads-claude",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:30:25.663551+00:00",
+        "baseline_stars": 283,
+        "stars_change": 2,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "d1df3f544249191cbc600c8301e2b9d5ddd121c8"
+      },
+      "supplementary_sources": [
+        {
+          "path": "skills/ads-copy/SKILL.md",
+          "url": "https://github.com/zubair-trabzada/ai-ads-claude/blob/d1df3f544249191cbc600c8301e2b9d5ddd121c8/skills/ads-copy/SKILL.md",
+          "sha256": "51486c660715f20e473e1593e6694509b54af0bc60aaf1a9afdaeb3f48e10ec6",
+          "blob_sha": "b3002e0d4884a0999a19ddb24ccf9aeae7b02d10"
+        }
+      ],
+      "advertising_capability_summary": "广告专用 Claude Code Skills：平台格式广告文案、视频广告脚本、关键词及预算方案。",
+      "review_boundary": "优先关注 ads-copy/ads-video 素材组件；策略评分和预算预测是模型建议，没有证明可自动修改账户。",
+      "evidence_url": "https://github.com/zubair-trabzada/ai-ads-claude/blob/d1df3f544249191cbc600c8301e2b9d5ddd121c8/README.md#L74-L103",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "alimama-tech/AuctionNet",
+      "html_url": "https://github.com/alimama-tech/AuctionNet",
+      "description": "AuctionNet: A Novel Benchmark for Decision-Making in Large-Scale Games",
+      "homepage": "",
+      "stargazers_count": 257,
+      "forks_count": 41,
+      "open_issues_count": 4,
+      "created_at": "2024-12-10T09:29:56Z",
+      "updated_at": "2026-11-03T02:09:55Z",
+      "pushed_at": "2025-04-25T03:36:30Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "observed_at_utc": "2026-11-04T13:30:08.574344Z",
+      "head_commit": "c20de631a40e24669d1d6a8e2acefd8f492f172d",
+      "readme_path": "README.md",
+      "readme_blob_sha": "9137f609261cafb6d89b2b05740aa3fd7f8c81f1",
+      "readme_sha256": "0e67c05a54e219c1b6d8752d1f5fd4b5aeadad0409355972b3c2620ac53bf053",
+      "readme_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/alimama-tech/AuctionNet",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "first_shortlisted_date": "2026-11-04",
+      "evidence_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md#L14-L20",
+      "advertising_capability_summary": "广告拍卖与自动竞价 Agent 基准：仿真环境、数据轨迹、强化学习、在线线性规划及 Decision Transformer 策略。",
+      "review_boundary": "适合预算/CPA 约束下的离线竞价策略比较。属于仿真和训练，不能直接执行广告账户投放；Diffbid 待实现，最近推送为 2025-04-25。",
+      "supplementary_sources": [
+        {
+          "path": "run/run_test.py",
+          "url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/run/run_test.py",
+          "sha256": "56252bca81256cfa9f6e320a0114f832d2885e1f2e33375d443d9a0d78f5b7a3",
+          "blob_sha": "bb08a07f48125ec0f326f8dd229862cb7c1a4cb5",
+          "observed_at_utc": "2026-11-04T13:31:36.985063Z"
+        },
+        {
+          "path": "simul_bidding_env/strategy/iql_bidding_strategy.py",
+          "url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/simul_bidding_env/strategy/iql_bidding_strategy.py",
+          "sha256": "cd03a6bc322823aa8b84dec664d4b1878a9bc8cded9ed2641e47990becb54fee",
+          "blob_sha": "1a52b97d6d1b01ebbd34f64c1fe422e72126c3db",
+          "observed_at_utc": "2026-11-04T13:31:36.964446Z"
+        },
+        {
+          "path": "simul_bidding_env/strategy/base_bidding_strategy.py",
+          "url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/simul_bidding_env/strategy/base_bidding_strategy.py",
+          "sha256": "d3889b5d10cceb5a05dfc47c4eab48df0329860529a6b6058fd8c628461121fb",
+          "blob_sha": "ff7edbbec8447c093604479adca2c6e93892d48b",
+          "observed_at_utc": "2026-11-04T13:31:36.997744Z"
+        }
+      ],
+      "selected_evidence": [
+        {
+          "purpose": "eligibility",
+          "path": "README.md",
+          "line_start": 14,
+          "line_end": 20,
+          "quote": "Decision-making in large-scale games is an essential research area in artificial intelligence (AI) with significant real-world impact. **AuctionNet** is a benchmark for bid decision-making in large-scale ad auctions derived from a real-world online advertising platform. AuctionNet is composed of three parts: \n\n- 🌏️ **Ad Auction Environment**: The environment effectively replicates the integrity and complexity of real-world ad auctions with the interaction of several modules: the ad opportunity generation module, the bidding module, and the auction module. \n\n- 🔢 **Pre-Generated Dataset**: We pre-generated a substantial dataset based on the auction environment. The dataset contains trajectories with 48 diverse agents competing with each other, totaling over 500 million records and 80GB in size.\n\n- ✴️ **Several Baseline Bid Decision-Making Algorithms**: We implemented a variety of baseline algorithms such as linear programming, reinforcement learning, and generative models.",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md#L14-L20"
+        },
+        {
+          "purpose": "business_value_basis",
+          "path": "README.md",
+          "line_start": 39,
+          "line_end": 42,
+          "quote": "Bid decision-making in large-scale ad auctions is a concrete example of decision-making in large-scale games.  \nNumbers 1 through 5 illustrate how an auto-bidding agent helps advertisers optimize performance.  \nFor each advertiser's unique objective (I), the auto-bidding agent makes bid decision-making (II) for continuously arriving ad opportunities and competes against each other in the ad auction (III).  \nThen, each agent may win some impressions (IV), which may be exposed to users and potentially result in conversions. Finally, the agents' performance (V) will be reported to advertisers.",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md#L39-L42"
+        },
+        {
+          "purpose": "core_capability",
+          "path": "README.md",
+          "line_start": 203,
+          "line_end": 213,
+          "quote": "| Category                  | Strategy                                     | Status |\n|---------------------------|----------------------------------------------|--------|\n| Reinforcement Learning    | [IQL](https://arxiv.org/abs/2110.06169)      |   ✅     |\n|                           | [BC](https://arxiv.org/abs/1805.01954)       |   ✅    |\n|                           | [BCQ](https://arxiv.org/pdf/1812.02900)      | ✅      |\n|                           | [TD3_BC](https://arxiv.org/pdf/2106.06860)   | ✅      |\n| Online Linear Programming | [OnlineLp](https://arxiv.org/abs/2006.16312) | ✅      |\n| Generative Model          | [Decision-Transformer](https://arxiv.org/abs/2106.01345)                     | ✅      |\n| Generative Model          | [Diffbid](https://arxiv.org/pdf/2405.16141)  | To be implemented    |\n| Other                     | Abid (fixed bid rate)                        | ✅      |\n|                           | [PID](https://arxiv.org/abs/1603.01055)      | ✅      |",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md#L203-L213"
+        },
+        {
+          "purpose": "implementation_budget_and_cpa",
+          "path": "simul_bidding_env/strategy/base_bidding_strategy.py",
+          "line_start": 9,
+          "line_end": 21,
+          "quote": "    def __init__(self, budget=100, name=\"BaseStrategy\", cpa=2, category=1):\n        \"\"\"\n        Initialize the bidding strategy.\n        parameters:\n            @budget: the advertiser's budget for a delivery period.\n            @cpa: the CPA constraint of the advertiser.\n            @category: the index of advertiser's industry category.\n\n        \"\"\"\n        self.budget = budget\n        self.remaining_budget = budget\n        self.name = name\n        self.cpa = cpa",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/simul_bidding_env/strategy/base_bidding_strategy.py#L9-L21"
+        },
+        {
+          "purpose": "implementation_bids",
+          "path": "simul_bidding_env/strategy/iql_bidding_strategy.py",
+          "line_start": 99,
+          "line_end": 104,
+          "quote": "        test_state = torch.tensor(test_state, dtype=torch.float)\n        alpha = self.model(test_state)\n        alpha = alpha.cpu().numpy()\n        bids = alpha * pValues\n\n        return bids",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/simul_bidding_env/strategy/iql_bidding_strategy.py#L99-L104"
+        },
+        {
+          "purpose": "boundary_simulation",
+          "path": "run/run_test.py",
+          "line_start": 103,
+          "line_end": 108,
+          "quote": "def run_test(generate_log: bool = False,\n             num_episode: int = 2,\n             num_tick: int = 48,\n             player_index: int = 0,\n             ):\n    \"\"\"Runs the bidding simulation test.",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/run/run_test.py#L103-L108"
+        },
+        {
+          "purpose": "simulation_budget_rewards",
+          "path": "run/run_test.py",
+          "line_start": 178,
+          "line_end": 201,
+          "quote": "            remaining_budget_list = np.array([agent.remaining_budget for agent in agents])\n            done_list = np.ones(len(agents), dtype=int) if tick_index == (num_tick - 1) else (\n                remaining_budget_list < envs.min_remaining_budget\n            ).astype(int)\n\n            ratio_max = None\n            while ratio_max is None or ratio_max > 0:\n                if ratio_max and ratio_max > 0:\n                    over_cost_ratio = np.maximum((cost - remaining_budget_list) / (cost + 1e-4), 0)\n                    adjust_over_cost(bids, over_cost_ratio, envs.slot_coefficients,winner_pit)\n\n                xi_pit, slot_pit, cost_pit, is_exposed_pit, conversion_action_pit, least_winning_cost_pit, market_price_pit = \\\n                    envs.simulate_ad_bidding(pv_values, pvalue_sigmas, bids)\n\n                real_cost = cost_pit * is_exposed_pit\n                cost = real_cost.sum(axis=1)\n                reward = conversion_action_pit.sum(axis=1)\n\n                winner_pit = get_winner(slot_pit)\n                over_cost_ratio = np.maximum((cost - remaining_budget_list) / (cost + 1e-4), 0)\n                ratio_max = over_cost_ratio.max()\n\n            for i, agent in enumerate(agents):\n                agent.remaining_budget -= cost[i]",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/run/run_test.py#L178-L201"
+        },
+        {
+          "purpose": "boundary_unimplemented",
+          "path": "README.md",
+          "line_start": 209,
+          "line_end": 211,
+          "quote": "| Online Linear Programming | [OnlineLp](https://arxiv.org/abs/2006.16312) | ✅      |\n| Generative Model          | [Decision-Transformer](https://arxiv.org/abs/2106.01345)                     | ✅      |\n| Generative Model          | [Diffbid](https://arxiv.org/pdf/2405.16141)  | To be implemented    |",
+          "source_url": "https://github.com/alimama-tech/AuctionNet/blob/c20de631a40e24669d1d6a8e2acefd8f492f172d/README.md#L209-L211"
+        }
+      ]
+    },
+    {
+      "full_name": "TheMattBerman/google-ads-copilot",
+      "html_url": "https://github.com/TheMattBerman/google-ads-copilot",
+      "description": "Google Ads Copilot: operator kit for audits, MCP-connected reads, export-mode analysis, and draft/apply workflows.",
+      "homepage": null,
+      "stargazers_count": 241,
+      "forks_count": 47,
+      "open_issues_count": 0,
+      "created_at": "2026-03-16T20:15:14Z",
+      "updated_at": "2026-10-29T13:45:20Z",
+      "pushed_at": "2026-06-10T15:58:40Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:50.625747+00:00",
+      "head_commit": "2c253ee988b5540465317cde0cd4d6915dc2b382",
+      "readme_path": "README.md",
+      "readme_blob_sha": "5edbb91989b1eea9032ee5a26c182c0c55cd05b0",
+      "readme_sha256": "dd5c3fe82366c034575807faa05ccc5e80b7f61d5103db7f6b7640080f810ab5",
+      "readme_url": "https://github.com/TheMattBerman/google-ads-copilot/blob/2c253ee988b5540465317cde0cd4d6915dc2b382/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/TheMattBerman/google-ads-copilot",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:19.428572+00:00",
+        "baseline_stars": 241,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "2c253ee988b5540465317cde0cd4d6915dc2b382"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "读取账户或 CSV，形成可审核草稿；文档列出否定关键词、暂停关键词/广告组、日预算调整的受控 Apply。",
+      "review_boundary": "适合 Read → Draft → Apply 设计；应以列明的写入范围评估，不能推定覆盖全部 Google Ads 操作。",
+      "evidence_url": "https://github.com/TheMattBerman/google-ads-copilot/blob/2c253ee988b5540465317cde0cd4d6915dc2b382/README.md#L19-L29",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "brijr/meta-mcp",
+      "html_url": "https://github.com/brijr/meta-mcp",
+      "description": "MCP Server for connecting to the Meta Marketing API",
+      "homepage": "https://meta-mcp.com",
+      "stargazers_count": 201,
+      "forks_count": 75,
+      "open_issues_count": 0,
+      "created_at": "2025-06-17T20:37:58Z",
+      "updated_at": "2026-10-29T16:32:09Z",
+      "pushed_at": "2026-05-28T19:22:29Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": null,
+      "observed_at_utc": "2026-11-04T13:27:50.703215+00:00",
+      "head_commit": "664b20617a6aee529ff31f8093e85fca7db4b7be",
+      "readme_path": "README.md",
+      "readme_blob_sha": "056fdaa0ecacbdc1528eedc6f4396471402d407b",
+      "readme_sha256": "f099d24409de3993e2409383475dfd8a77a7a40728dd5d35e89507f3e8102988",
+      "readme_url": "https://github.com/brijr/meta-mcp/blob/664b20617a6aee529ff31f8093e85fca7db4b7be/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/brijr/meta-mcp",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:20.232894+00:00",
+        "baseline_stars": 201,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "664b20617a6aee529ff31f8093e85fca7db4b7be"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "Cloudflare Workers 上的 Meta 广告账户设置、Campaign、Ad Set、素材、受众与报表工具。",
+      "review_boundary": "适合 Meta OAuth、工具组织和部署模型比较；与 Pipeboard 是不同实现。",
+      "evidence_url": "https://github.com/brijr/meta-mcp/blob/664b20617a6aee529ff31f8093e85fca7db4b7be/README.md#L73-L82",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "gomarble-ai/google-ads-mcp-server",
+      "html_url": "https://github.com/gomarble-ai/google-ads-mcp-server",
+      "description": "This repo helps us to analyze googla ads performance data",
+      "homepage": null,
+      "stargazers_count": 146,
+      "forks_count": 47,
+      "open_issues_count": 2,
+      "created_at": "2025-06-12T18:29:55Z",
+      "updated_at": "2026-10-16T18:05:25Z",
+      "pushed_at": "2026-08-05T09:45:27Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:50.758818+00:00",
+      "head_commit": "4f922abc8f9932a5080052a222a5edb86d7a3697",
+      "readme_path": "README.md",
+      "readme_blob_sha": "3d1497f741af34e2f1b1b72407acc7d150a18c8f",
+      "readme_sha256": "b79bdf157c275cdbcff2228866b28ca9fb9271822f1e5be40e4242e8ce95dfb6",
+      "readme_url": "https://github.com/gomarble-ai/google-ads-mcp-server/blob/4f922abc8f9932a5080052a222a5edb86d7a3697/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/gomarble-ai/google-ads-mcp-server",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:20.211486+00:00",
+        "baseline_stars": 146,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "4f922abc8f9932a5080052a222a5edb86d7a3697"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "Google Ads OAuth、GAQL 广告数据查询与关键词研究，供 AI 客户端调用。",
+      "review_boundary": "适合 Google Ads 数据接入备选；文档的 account management 不足以证明全部 Campaign 写入。",
+      "evidence_url": "https://github.com/gomarble-ai/google-ads-mcp-server/blob/4f922abc8f9932a5080052a222a5edb86d7a3697/README.md#L27-L35",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "DV0x/creative-ad-agent",
+      "html_url": "https://github.com/DV0x/creative-ad-agent",
+      "description": "Multi-agent system for generating Meta/Instagram ad creatives using Claude SDK and Nano Banana MCP",
+      "homepage": "https://creative-machine.pages.dev/",
+      "stargazers_count": 127,
+      "forks_count": 28,
+      "open_issues_count": 1,
+      "created_at": "2025-11-21T06:09:20Z",
+      "updated_at": "2026-11-04T06:24:28Z",
+      "pushed_at": "2026-09-06T11:21:07Z",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:29:40.156132Z",
+      "head_commit": "751b9e5146604dc65049bd0f62dcbdad6212f8a3",
+      "readme_path": "README.md",
+      "readme_blob_sha": "7f5dc2976d2848ccb3a97e99c19ec1f01417c2ba",
+      "readme_sha256": "f50e6f249eb0814f173b54e75ea900612e3eadf628987a1af0b03c89d39ed17c",
+      "readme_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/DV0x/creative-ad-agent",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "first_shortlisted_date": "2026-11-04",
+      "evidence_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md#L1-L3",
+      "advertising_capability_summary": "广告专用素材 Agent：品牌网页事实研究 → Hook → 视觉提示 → AI 图片，输出多广告概念与素材变体。",
+      "review_boundary": "适合为投放测试准备图片素材。依赖外部模型/图片服务；未证明发布广告、控制预算或读取真实 A/B 结果，也未验证转化提升。",
+      "supplementary_sources": [
+        {
+          "path": "server/lib/ai-client.ts",
+          "url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/ai-client.ts",
+          "sha256": "9b604c26fc64885ca69222297222021a8ce8d119454c3fecd62300f3a5e26163",
+          "blob_sha": "a9b7e11bb3e8fcea9c70efe83d20bd5ab8d1dbde",
+          "observed_at_utc": "2026-11-04T13:31:37.446176Z"
+        },
+        {
+          "path": "server/lib/nano-banana-mcp.ts",
+          "url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/nano-banana-mcp.ts",
+          "sha256": "4f7083fc1b6ffabfa7435359339dfd8181fcc8595c8627a3baf0589c1a0ee398",
+          "blob_sha": "24a897f0fb20b023bba53798d9acb86598b76888",
+          "observed_at_utc": "2026-11-04T13:31:37.356317Z"
+        },
+        {
+          "path": "server/lib/orchestrator-prompt.ts",
+          "url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/orchestrator-prompt.ts",
+          "sha256": "87878696e077a9e50356c66ef0d60d93cc02c31ad7287e734252d14fb779865d",
+          "blob_sha": "2bd89792ab5b2ea688132e5115ea6b705802aaf0",
+          "observed_at_utc": "2026-11-04T13:31:36.768858Z"
+        }
+      ],
+      "selected_evidence": [
+        {
+          "purpose": "eligibility",
+          "path": "README.md",
+          "line_start": 1,
+          "line_end": 3,
+          "quote": "# Creative Ad Agent\n\nAn AI-powered creative advertising agent that generates conversion-focused ads using a **hook-first methodology**. Built with the Claude Agent SDK, it analyzes brand websites, extracts factual data, and creates 6 diverse ad concepts with AI-generated images.",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md#L1-L3"
+        },
+        {
+          "purpose": "core_capability",
+          "path": "README.md",
+          "line_start": 8,
+          "line_end": 12,
+          "quote": "- **Research-Driven** - Extracts real data from brand websites: offers, value props, proof points, testimonials\n- **6 Diverse Concepts** - Each concept uses a different emotional trigger (social proof, urgency, curiosity, etc.)\n- **AI Image Generation** - Creates visuals via fal.ai Nano Banana Pro\n- **Session Management** - Stateful conversations with forking for A/B testing\n- **Dual Deployment** - Local development server + Cloudflare Workers production",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md#L8-L12"
+        },
+        {
+          "purpose": "business_value_basis",
+          "path": "README.md",
+          "line_start": 38,
+          "line_end": 43,
+          "quote": "1. **Parse** - Extract URL and brand name from request\n2. **Research** - Agent fetches homepage, extracts offers/value props/proof points\n3. **Hooks** - Skill generates 10+ hooks, selects 6 with diversity matrix\n4. **Art** - Skill creates visual prompts for each hook\n5. **Images** - MCP generates images via fal.ai\n6. **Complete** - Returns 6 ad concepts with images",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md#L38-L43"
+        },
+        {
+          "purpose": "boundary_dependencies",
+          "path": "README.md",
+          "line_start": 47,
+          "line_end": 51,
+          "quote": "### Prerequisites\n\n- Node.js v20+\n- [Anthropic API Key](https://console.anthropic.com/)\n- [fal.ai API Key](https://fal.ai/dashboard/keys)",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/README.md#L47-L51"
+        },
+        {
+          "purpose": "implementation_model",
+          "path": "server/lib/ai-client.ts",
+          "line_start": 25,
+          "line_end": 28,
+          "quote": "    this.defaultOptions = {\n      cwd: projectRoot, // Points to agent/ directory where .claude/agents/ is located\n      model: 'claude-opus-4-5-20251101',\n      maxTurns: 30, // CRITICAL for tool usage!",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/ai-client.ts#L25-L28"
+        },
+        {
+          "purpose": "implementation_agent_tools",
+          "path": "server/lib/ai-client.ts",
+          "line_start": 37,
+          "line_end": 57,
+          "quote": "      allowedTools: [\n        // === ORCHESTRATOR TOOLS (Main agent uses these) ===\n        \"Task\",       // Launch specialized subagents - CORE ORCHESTRATION TOOL\n        \"Skill\",      // Enable skills - agents can consult specialized skills for guidance\n        \"TodoWrite\",  // Track workflow progress (optional but helpful for visibility)\n\n        // === SUBAGENT TOOLS (Only subagents use these via Task tool) ===\n        // brand-researcher uses:\n        \"WebFetch\",   // Web content fetching (2-3 targeted searches)\n        \"Read\",       // File reading\n\n        // culture-researcher uses:\n        \"WebSearch\",  // Web searching (12-15 cultural intelligence searches)\n        \"Read\",       // File reading\n        \"Write\",      // Save cultural intelligence report\n\n        // creative-director uses:\n        \"Read\",       // Read research files\n        \"Write\",      // Save campaign brief\n        \"Glob\",       // File pattern matching\n        \"mcp__nano-banana__generate_ad_images\",  // Gemini 2.5 Flash Image generation",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/ai-client.ts#L37-L57"
+        },
+        {
+          "purpose": "implementation_mcp",
+          "path": "server/lib/ai-client.ts",
+          "line_start": 66,
+          "line_end": 71,
+          "quote": "      // Custom system prompt - PURE ORCHESTRATION ROLE\n      systemPrompt: ORCHESTRATOR_SYSTEM_PROMPT,\n      // MCP servers - nano_banana for image generation\n      mcpServers: {\n        \"nano-banana\": nanoBananaMcpServer\n      }",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/ai-client.ts#L66-L71"
+        },
+        {
+          "purpose": "implementation_image_tool",
+          "path": "server/lib/nano-banana-mcp.ts",
+          "line_start": 100,
+          "line_end": 112,
+          "quote": "export const nanoBananaMcpServer = createSdkMcpServer({\n  name: \"nano-banana\",\n  version: \"5.1.0\",\n  tools: [\n    // Tool 1: Text-to-Image Generation (with optional reference images)\n    tool(\n      \"generate_ad_images\",\n      \"Generate up to 6 high-quality images using fal.ai Nano Banana Pro. \" +\n      \"Supports 1K/2K/4K resolution, multiple aspect ratios, web search grounding, and optional reference images. \" +\n      \"When reference images are provided, automatically uses image editing mode for style/subject consistency.\",\n      {\n        prompts: z.array(z.string()).min(1).max(6).describe(\n          \"Array of 1-6 image generation prompts. Each prompt should be descriptive and detailed. \" +",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/nano-banana-mcp.ts#L100-L112"
+        },
+        {
+          "purpose": "implementation_hosted_api",
+          "path": "server/lib/nano-banana-mcp.ts",
+          "line_start": 192,
+          "line_end": 222,
+          "quote": "              if (hasReferenceImages) {\n                // Use edit endpoint when reference images are provided\n                result = await fal.subscribe(\"fal-ai/nano-banana-pro/edit\", {\n                  input: {\n                    prompt: enhancedPrompt,\n                    image_urls: args.referenceImageUrls!,\n                    num_images: 1,\n                    aspect_ratio: args.aspectRatio || '1:1',\n                    resolution: args.resolution || '1K',\n                    output_format: args.outputFormat || 'png',\n                    enable_web_search: args.enableWebSearch || false,\n                  },\n                  logs: true,\n                  onQueueUpdate: (update) => {\n                    if (update.status === \"IN_PROGRESS\" && update.logs) {\n                      update.logs.map((log) => log.message).forEach((msg) => {\n                        console.log(`   📝 ${msg}`);\n                      });\n                    }\n                  },\n                });\n              } else {\n                // Use text-to-image endpoint\n                result = await fal.subscribe(\"fal-ai/nano-banana-pro\", {\n                  input: {\n                    prompt: enhancedPrompt,\n                    num_images: 1,\n                    aspect_ratio: args.aspectRatio || '1:1',\n                    resolution: args.resolution || '1K',\n                    output_format: args.outputFormat || 'png',\n                    enable_web_search: args.enableWebSearch || false,",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/nano-banana-mcp.ts#L192-L222"
+        },
+        {
+          "purpose": "implementation_workflow_end",
+          "path": "server/lib/orchestrator-prompt.ts",
+          "line_start": 28,
+          "line_end": 33,
+          "quote": "1. Parse request → Extract URL (required), brand name, style (optional)\n2. Spawn research agent → Wait for \\`agent/files/research/{brand}_research.md\\`\n3. Trigger hook-methodology skill → Wait for hook-bank file\n4. Trigger art-style skill → Wait for \\`agent/files/creatives/{brand}_prompts.json\\`\n5. Read prompts.json and call MCP tool to generate images (3 per batch, 2 batches)\n6. Report completion with image URLs",
+          "source_url": "https://github.com/DV0x/creative-ad-agent/blob/751b9e5146604dc65049bd0f62dcbdad6212f8a3/server/lib/orchestrator-prompt.ts#L28-L33"
+        }
+      ]
+    },
+    {
+      "full_name": "langchain-ai/paid-media-agent",
+      "html_url": "https://github.com/langchain-ai/paid-media-agent",
+      "description": "Open-source paid media agent for Google Ads, Meta Ads, Reddit, LinkedIn, X, and OpenAI Ads: analysis, reports, and reviewed changes, built on Deep Agents.",
+      "homepage": "",
+      "stargazers_count": 117,
+      "forks_count": 24,
+      "open_issues_count": 5,
+      "created_at": "2026-09-11T22:22:37Z",
+      "updated_at": "2026-11-03T07:46:54Z",
+      "pushed_at": "2026-11-01T21:15:51Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "observed_at_utc": "2026-11-04T13:27:51.930226+00:00",
+      "head_commit": "c81f9950cd56449a770a9a9e5e9e0a3fad54c382",
+      "readme_path": "README.md",
+      "readme_blob_sha": "4eb73b74844ae2b76e391dad5088ff0095207a46",
+      "readme_sha256": "c7338f42cc7757f49ab8883134ce8fd25fce6de4a056f4944199c1c9d4ba398b",
+      "readme_url": "https://github.com/langchain-ai/paid-media-agent/blob/c81f9950cd56449a770a9a9e5e9e0a3fad54c382/README.md",
+      "selection_group": "main",
+      "api_url": "https://api.github.com/repos/langchain-ai/paid-media-agent",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:20.076763+00:00",
+        "baseline_stars": 116,
+        "stars_change": 1,
+        "forks_change": 0,
+        "default_branch_head_changed": false,
+        "readme_changed": false,
+        "baseline_head_commit": "c81f9950cd56449a770a9a9e5e9e0a3fad54c382"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "跨渠道广告消耗、转化、CPL、预算节奏分析及报告，准备带原因和检查计划的 Campaign 变更。",
+      "review_boundary": "适合投放分析到审核的业务闭环。真实账户变更默认关闭，需写入策略、发布检查与授权审核。",
+      "evidence_url": "https://github.com/langchain-ai/paid-media-agent/blob/c81f9950cd56449a770a9a9e5e9e0a3fad54c382/README.md#L27-L54",
+      "verification_level": "primary_documentation_and_selected_static_source"
+    },
+    {
+      "full_name": "prebid/salesagent",
+      "html_url": "https://github.com/prebid/salesagent",
+      "description": "A media sales agent that implements the AdCP Media Buy protocol",
+      "homepage": "",
+      "stargazers_count": 39,
+      "forks_count": 60,
+      "open_issues_count": 816,
+      "created_at": "2025-07-23T18:47:35Z",
+      "updated_at": "2026-11-03T23:24:36Z",
+      "pushed_at": "2026-11-04T06:57:42Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "observed_at_utc": "2026-11-04T13:27:53.130673+00:00",
+      "head_commit": "960f506bdd17ed71ab606667909c7b2ec0af9b50",
+      "readme_path": "README.md",
+      "readme_blob_sha": "72b7b7bd864682715a3ba742c13634e9ef34c809",
+      "readme_sha256": "e1b402b53188e2beed67c8fc04de3204f12b2accee5a26badb1498a0aa9a6d04",
+      "readme_url": "https://github.com/prebid/salesagent/blob/960f506bdd17ed71ab606667909c7b2ec0af9b50/README.md",
+      "selection_group": "watch",
+      "api_url": "https://api.github.com/repos/prebid/salesagent",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:22.352228+00:00",
+        "baseline_stars": 39,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": true,
+        "readme_changed": false,
+        "baseline_head_commit": "1c202df28c6715bd00fb638197fe5bc08fb163d3"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "通过 MCP/A2A 暴露广告库存，支持媒体购买与 Google Ad Manager 等广告服务器对接。",
+      "review_boundary": "媒体交易与供给侧参考；README 明确为 alpha，不能以协议或示例等同于生产投放验证。",
+      "evidence_url": "https://github.com/prebid/salesagent/blob/960f506bdd17ed71ab606667909c7b2ec0af9b50/README.md#L3-L20",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/prebid/salesagent/compare/1c202df28c6715bd00fb638197fe5bc08fb163d3...960f506bdd17ed71ab606667909c7b2ec0af9b50",
+        "api_url": "https://api.github.com/repos/prebid/salesagent/compare/1c202df28c6715bd00fb638197fe5bc08fb163d3...960f506bdd17ed71ab606667909c7b2ec0af9b50",
+        "status": "ahead",
+        "ahead_by": 2,
+        "behind_by": 0,
+        "total_commits": 2,
+        "returned_file_count": 4,
+        "file_list_may_be_capped": false,
+        "recent_commit_subjects": [
+          {
+            "sha": "3d7c854541928a99794aec03f4ed63a02fadda98",
+            "subject": "chore(deps): bump joserfc and pyasn1 past their advisories (#2504)"
+          },
+          {
+            "sha": "960f506bdd17ed71ab606667909c7b2ec0af9b50",
+            "subject": "test: stop dating media buy updates with a calendar date that has passed (#2495)"
+          }
+        ]
+      }
+    },
+    {
+      "full_name": "aws-solutions-library-samples/guidance-for-advertising-agents-on-aws",
+      "html_url": "https://github.com/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws",
+      "description": "This guidance demonstrates how to deploy a comprehensive agentic application for advertising workflows using Amazon Bedrock AgentCore. The solution showcases advanced multi-agent collaboration across the entire advertising value chain - from strategic media planning and audience targeting to real-time bid optimization and publisher revenue manageme",
+      "homepage": "https://aws.amazon.com/solutions/guidance/advertising-agents-on-aws/",
+      "stargazers_count": 22,
+      "forks_count": 8,
+      "open_issues_count": 11,
+      "created_at": "2025-09-12T17:56:52Z",
+      "updated_at": "2026-11-02T19:12:53Z",
+      "pushed_at": "2026-11-02T19:15:11Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit-0",
+        "name": "MIT No Attribution",
+        "spdx_id": "MIT-0",
+        "url": "https://api.github.com/licenses/mit-0",
+        "node_id": "MDc6TGljZW5zZTQx"
+      },
+      "observed_at_utc": "2026-11-04T13:27:53.415099+00:00",
+      "head_commit": "e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8",
+      "readme_path": "README.md",
+      "readme_blob_sha": "34b5dd4264d6f176c5a68fb8c4ed57732dd296f8",
+      "readme_sha256": "99798fb235a5beb85325e7a86b6cabe885d43406afec259a2be533f89b416090",
+      "readme_url": "https://github.com/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws/blob/e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8/README.md",
+      "selection_group": "watch",
+      "api_url": "https://api.github.com/repos/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:22.640204+00:00",
+        "baseline_stars": 22,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": true,
+        "readme_changed": true,
+        "baseline_head_commit": "13239f178ad8ea749fbdc258300f7141ef9ec306"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "基于 Bedrock AgentCore 的广告多 Agent 方案，覆盖媒体规划、受众、竞价优化与发布商变现。",
+      "review_boundary": "广告专用参考架构。含演示数据与演示 UI，不是已验证的真实账户优化服务。",
+      "evidence_url": "https://github.com/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws/blob/e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8/README.md#L82-L95",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws/compare/13239f178ad8ea749fbdc258300f7141ef9ec306...e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8",
+        "api_url": "https://api.github.com/repos/aws-solutions-library-samples/guidance-for-advertising-agents-on-aws/compare/13239f178ad8ea749fbdc258300f7141ef9ec306...e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8",
+        "status": "ahead",
+        "ahead_by": 3,
+        "behind_by": 0,
+        "total_commits": 3,
+        "returned_file_count": 61,
+        "file_list_may_be_capped": false,
+        "recent_commit_subjects": [
+          {
+            "sha": "833c5597420494e42f4e4764791cb0e50e7118ca",
+            "subject": "chore(models): move all Claude model IDs to the 5.5 family"
+          },
+          {
+            "sha": "96cdf750e96d2f5f1190180ced6bdc843856340c",
+            "subject": "feat(synthetic-data): add RideSharer Media brand safety guidelines"
+          },
+          {
+            "sha": "e3cd9035a1c40bee9e74de55c6e4e8ae755c4bc8",
+            "subject": "Merge pull request #51 from aws-solutions-library-samples/feat/claude-5-5-models"
+          }
+        ]
+      }
+    },
+    {
+      "full_name": "Synter-Media-AI/mcp-server",
+      "html_url": "https://github.com/Synter-Media-AI/mcp-server",
+      "description": "Open-source MCP server for AI agents: read across 43 ad platforms, with verified write and create across 16 core platforms (Google, Meta, LinkedIn, Microsoft, Reddit, TikTok, X, Amazon, TTD, DV360, StackAdapt & more). Free reads (zsh/mo), /mo Solo for writes, multi-tenant OAuth & REST/SDKs.",
+      "homepage": "https://synterai.com/mcp",
+      "stargazers_count": 21,
+      "forks_count": 4,
+      "open_issues_count": 6,
+      "created_at": "2026-01-29T18:38:29Z",
+      "updated_at": "2026-11-02T02:33:31Z",
+      "pushed_at": "2026-11-03T03:43:54Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "observed_at_utc": "2026-11-04T13:27:53.418349+00:00",
+      "head_commit": "73292595ea013e4de5025c9a8b73c53dc5919792",
+      "readme_path": "README.md",
+      "readme_blob_sha": "bc69879879b0cf5aefd463c1ef7a5915dd0ded6e",
+      "readme_sha256": "22376e6c42f54feae6454cc5ee8282be15798655ea61e755dc1a354aaa92f255",
+      "readme_url": "https://github.com/Synter-Media-AI/mcp-server/blob/73292595ea013e4de5025c9a8b73c53dc5919792/README.md",
+      "selection_group": "watch",
+      "api_url": "https://api.github.com/repos/Synter-Media-AI/mcp-server",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:23.621880+00:00",
+        "baseline_stars": 21,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": true,
+        "readme_changed": true,
+        "baseline_head_commit": "6ed95d885030a218d675e3177b6e1f7732f124d2"
+      },
+      "supplementary_sources": [],
+      "advertising_capability_summary": "广告报表、账户/Campaign 操作、预算和写后读回；README 区分托管 30+ 平台声明与本地表列 16 平台。",
+      "review_boundary": "平台覆盖和 Verified 字样均为项目方声明；各平台写入深度不同。写入默认开启，可选只读，客户端确认取决于配置。",
+      "evidence_url": "https://github.com/Synter-Media-AI/mcp-server/blob/73292595ea013e4de5025c9a8b73c53dc5919792/README.md#L168-L203",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/Synter-Media-AI/mcp-server/compare/6ed95d885030a218d675e3177b6e1f7732f124d2...73292595ea013e4de5025c9a8b73c53dc5919792",
+        "api_url": "https://api.github.com/repos/Synter-Media-AI/mcp-server/compare/6ed95d885030a218d675e3177b6e1f7732f124d2...73292595ea013e4de5025c9a8b73c53dc5919792",
+        "status": "ahead",
+        "ahead_by": 1,
+        "behind_by": 0,
+        "total_commits": 1,
+        "returned_file_count": 13,
+        "file_list_may_be_capped": false,
+        "recent_commit_subjects": [
+          {
+            "sha": "73292595ea013e4de5025c9a8b73c53dc5919792",
+            "subject": "docs: harness sweep 219-227 (README, llms.txt, Gemini, metadata) (#32)"
+          }
+        ]
+      }
+    },
+    {
+      "full_name": "ynnickw/adport",
+      "html_url": "https://github.com/ynnickw/adport",
+      "description": "Open-source multi-platform ads management for AI agents — connect your ad accounts, manage them via MCP + CLI with policy-guarded writes",
+      "homepage": "https://adport.dev",
+      "stargazers_count": 15,
+      "forks_count": 8,
+      "open_issues_count": 3,
+      "created_at": "2026-08-06T18:23:34Z",
+      "updated_at": "2026-11-04T13:07:15Z",
+      "pushed_at": "2026-11-04T13:14:42Z",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "observed_at_utc": "2026-11-04T13:27:53.458254+00:00",
+      "head_commit": "cf5b8586568393e036cc0e4a31021cdb3b5f7dd9",
+      "readme_path": "README.md",
+      "readme_blob_sha": "91a2a9921fc4d2eec1a1764417ac258ab0b04b8a",
+      "readme_sha256": "c5eec4c0d7f33b0e7faf110cf3f32a5a22d6e5e0aed82690aa734b3428767f3d",
+      "readme_url": "https://github.com/ynnickw/adport/blob/cf5b8586568393e036cc0e4a31021cdb3b5f7dd9/README.md",
+      "selection_group": "watch",
+      "api_url": "https://api.github.com/repos/ynnickw/adport",
+      "comparison_to_2026_11_02": {
+        "baseline_observed_at_utc": "2026-11-02T01:26:24.734029+00:00",
+        "baseline_stars": 15,
+        "stars_change": 0,
+        "forks_change": 0,
+        "default_branch_head_changed": true,
+        "readme_changed": false,
+        "baseline_head_commit": "f6515a3ac94b185941ef9bb31e32d59f563bef11"
+      },
+      "supplementary_sources": [
+        {
+          "path": "apps/cloud/app/api/v1/tools/[tool]/route.ts",
+          "url": "https://github.com/ynnickw/adport/blob/cf5b8586568393e036cc0e4a31021cdb3b5f7dd9/apps/cloud/app/api/v1/tools/[tool]/route.ts",
+          "sha256": "71991419ac051f863bef25fe913a865818295bba79e6de6baea00e26798c56ae",
+          "blob_sha": "63bb31de52bfc5e452a8fd2b0a02812b541d483f"
+        }
+      ],
+      "advertising_capability_summary": "11 个广告 Provider 的 CLI/MCP 控制面，含效果报表、审计及先预览后批准的写入。",
+      "review_boundary": "统一广告模型与策略约束参考。README 自述实现/合同测试不证明各平台全部操作已获批并真实执行。",
+      "evidence_url": "https://github.com/ynnickw/adport/blob/cf5b8586568393e036cc0e4a31021cdb3b5f7dd9/README.md#L62-L93",
+      "verification_level": "primary_documentation_and_selected_static_source",
+      "change_comparison": {
+        "url": "https://github.com/ynnickw/adport/compare/f6515a3ac94b185941ef9bb31e32d59f563bef11...cf5b8586568393e036cc0e4a31021cdb3b5f7dd9",
+        "api_url": "https://api.github.com/repos/ynnickw/adport/compare/f6515a3ac94b185941ef9bb31e32d59f563bef11...cf5b8586568393e036cc0e4a31021cdb3b5f7dd9",
+        "status": "ahead",
+        "ahead_by": 27,
+        "behind_by": 0,
+        "total_commits": 27,
+        "returned_file_count": 300,
+        "file_list_may_be_capped": true,
+        "recent_commit_subjects": [
+          {
+            "sha": "8c6f3bc8dfaab450d2d083a890b3a9ca47870b43",
+            "subject": "feat: authorize assistants across organization projects (#143)"
+          },
+          {
+            "sha": "051e5c37c7cc9ba915216c175b86cadf4f0b1a91",
+            "subject": "fix(cloud): support plan changes in native billing dashboard (#146)"
+          },
+          {
+            "sha": "6e231a804af1c6939bf0adf24ad93f20682ebcc6",
+            "subject": "fix(cloud): default assistant consent to all projects (#147)"
+          },
+          {
+            "sha": "c50ae7335c89857ace8fd7604422c5647ed48ff8",
+            "subject": "fix(cloud): switch billing intervals in place (#148)"
+          },
+          {
+            "sha": "d7971f6f01c618bf00f537ed7619e27d8a5f2922",
+            "subject": "fix(website): speed up hero animation pacing (#149)"
+          },
+          {
+            "sha": "72aa6bf0d9d6716f65c4cc7ff6f9544a19b9e3a0",
+            "subject": "Use logo tabs for assistant setup (#135)"
+          },
+          {
+            "sha": "d99490a6bb10db6f14b2796cd7a2e1f3d1b13ab9",
+            "subject": "Add minimal branded widgets and guarded operation reviews (#150)"
+          },
+          {
+            "sha": "cf5b8586568393e036cc0e4a31021cdb3b5f7dd9",
+            "subject": "Make creative previews compact and view-only (#151)"
+          }
+        ]
+      }
+    }
+  ]
+}

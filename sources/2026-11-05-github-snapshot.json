@@ -2,7 +2,7 @@
   "schema_version": 3,
   "report_date": "2026-11-05",
   "report_timezone": "Asia/Shanghai",
-  "generated_at_utc": "2026-11-05T04:38:30.750028+00:00",
+  "generated_at_utc": "2026-11-05T04:46:10.604026+00:00",
   "metadata_observation_window_utc": {
     "start": "2026-11-05T02:13:13.933384+00:00",
     "end": "2026-11-05T04:31:31.207882+00:00"
@@ -850,11 +850,25 @@
         }
       ],
       "selection_group": "main",
-      "advertising_capability_summary": "广告竞价与归因原型：GBM/DeepFM/GAT/PPO 出价服务、Campaign API 与多触点归因代码。",
-      "review_boundary": "适合学习竞价服务分层和降级设计。缺少模型权重时存在随机初始化或启发式路径；未证明接入真实交易所、跨媒体交付、收益、延迟或隐私合规，最近推送为 2026-05-08。",
+      "advertising_capability_summary": "广告竞价与归因原型：Campaign API 与多触点归因代码，另有 GBM/DeepFM/GAT/PPO 服务代码。",
+      "review_boundary": "HTTP /bidding/bid 使用独立 BiddingModel/启发式引擎，未见接入四层服务；后者缺权重时有未训练/随机初始化路径。仅作学习参考，未验证真实交付、收益、延迟或隐私合规，最近推送为 2026-05-08。",
       "evidence_url": "https://github.com/haoyangfeng2024/smb-adtech-platform/blob/52a00c1efb9b0a4e069c562e66f71267610d9410/README.md#L23-L58",
       "verification_level": "primary_documentation_and_selected_static_source",
-      "first_shortlisted_date": "2026-11-05"
+      "first_shortlisted_date": "2026-11-05",
+      "additional_evidence": [
+        {
+          "label": "Campaign API",
+          "url": "https://github.com/haoyangfeng2024/smb-adtech-platform/blob/52a00c1efb9b0a4e069c562e66f71267610d9410/README.md#L265-L280"
+        },
+        {
+          "label": "归因实现",
+          "url": "https://github.com/haoyangfeng2024/smb-adtech-platform/blob/52a00c1efb9b0a4e069c562e66f71267610d9410/measurement/attribution/probabilistic.py#L87-L164"
+        },
+        {
+          "label": "竞价路由",
+          "url": "https://github.com/haoyangfeng2024/smb-adtech-platform/blob/52a00c1efb9b0a4e069c562e66f71267610d9410/api/routers/bidding.py#L134-L165"
+        }
+      ]
     },
     {
       "full_name": "mathiaschu/meta-ads-analyzer",
@@ -1043,11 +1057,21 @@
         }
       ],
       "selection_group": "main",
-      "advertising_capability_summary": "广告专用 CLI 能力：Google/Meta/TikTok 等广告报表，GAQL，自然语言 Agent 的 Campaign 与素材操作，以及待审阅变更。",
-      "review_boundary": "适合把广告诊断与批准流程接入 Agent。仓库是 Soku 服务客户端，需关联账户与权限；只推荐广告相关部分，SEO/普通产品分析不在范围内。CLI 包含供人使用的 approve 命令，不代表已独立验证后端审批隔离。",
+      "advertising_capability_summary": "广告专用 CLI：Google/Meta/TikTok 等广告报表、GAQL、Campaign 与素材操作；写入受 review 与用户预设自动批准策略控制。",
+      "review_boundary": "Soku 服务客户端，仅推荐广告部分。写入通常待审；用户预设 Always approve 时可提交即执行，require_human 可强制待审。CLI 含人工 approve 命令，后端审批隔离未独立验证。",
       "evidence_url": "https://github.com/About-Intelligence/soku-cli/blob/bdc0838a7f07c78afe37790dc3e00b6e08518465/README.md#L91-L148",
       "verification_level": "primary_documentation_and_selected_static_source",
-      "first_shortlisted_date": "2026-11-05"
+      "first_shortlisted_date": "2026-11-05",
+      "additional_evidence": [
+        {
+          "label": "素材操作",
+          "url": "https://github.com/About-Intelligence/soku-cli/blob/bdc0838a7f07c78afe37790dc3e00b6e08518465/skills/soku/references/ads-write.md#L42-L66"
+        },
+        {
+          "label": "自动批准边界",
+          "url": "https://github.com/About-Intelligence/soku-cli/blob/bdc0838a7f07c78afe37790dc3e00b6e08518465/skills/soku/references/ads-write.md#L334-L336"
+        }
+      ]
     },
     {
       "full_name": "zubair-trabzada/ai-ads-claude",
@@ -1231,10 +1255,20 @@
       ],
       "selection_group": "main",
       "advertising_capability_summary": "仅收录 zach-search-term-report-analyzer：Amazon Ads SP/SB/SD 搜索词报告清洗、7/14/30 天指标、AI 词根分类及否词/控成本/放量建议。",
-      "review_boundary": "适合给投放人员生成可复核的搜索词决策清单；输出建议而不自动改预算、bid 或否词。需本地报表和完整分类；仓库的选品、Listing 等其他能力不在本次推荐范围。",
-      "evidence_url": "https://github.com/zach22-1999/amazon-skills/blob/db1f7d108eb8c43b6de36c6a3e230ebff107e227/README.md#L61-L68",
+      "review_boundary": "只输出建议，不自动改预算、bid 或否词；需本地报表与完整分类。README 的缺失数据保证未获实现完全支持：品牌词/竞品词有缺订单按 0 单处理的静态分支，需人工复核。其他选品和普通 Listing 能力不推荐。",
+      "evidence_url": "https://github.com/zach22-1999/amazon-skills/blob/db1f7d108eb8c43b6de36c6a3e230ebff107e227/skills/zach-search-term-report-analyzer/README.md#L5-L15",
       "verification_level": "primary_documentation_and_selected_static_source",
-      "first_shortlisted_date": "2026-11-05"
+      "first_shortlisted_date": "2026-11-05",
+      "additional_evidence": [
+        {
+          "label": "组件边界",
+          "url": "https://github.com/zach22-1999/amazon-skills/blob/db1f7d108eb8c43b6de36c6a3e230ebff107e227/skills/zach-search-term-report-analyzer/README.md#L98-L116"
+        },
+        {
+          "label": "缺失数据分支",
+          "url": "https://github.com/zach22-1999/amazon-skills/blob/db1f7d108eb8c43b6de36c6a3e230ebff107e227/skills/zach-search-term-report-analyzer/scripts/finalize_search_term_report.py#L379-L425"
+        }
+      ]
     },
     {
       "full_name": "TheMattBerman/google-ads-copilot",
